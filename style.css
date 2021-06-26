@@ -1,0 +1,109 @@
+body {
+  background-color: #300A24;
+  color: white;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+img {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  max-width: 100%
+}
+
+a {
+  margin: 0px 20px 0px 20px;
+  color: white;
+}
+
+h2 {
+  margin-top: 30px;
+  margin-bottom: 0px;
+}
+
+.imgbig {
+  display: block;
+}
+
+.imgsmall {
+  display: none;
+}
+
+#intro {
+  margin: auto;
+  text-align: center;
+  width: 644px;
+  line-height: 25px;
+}
+
+.features-title{
+  margin-top: 20px;
+  margin-bottom: 8px;
+}
+
+.features-item {
+  margin: 8px;
+  text-align: center;
+}
+
+#play {
+  width: 200px;
+  height: 40px;
+  background-color: white;
+  font-weight: bold;
+  color: #300A24;
+  margin: 15px;
+}
+
+#telnet {
+  font-size: 0.8rem;
+  width: 635px;
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: 10px;
+}
+
+#socialmedia {
+  width: 200px;
+  padding-bottom: 15px;
+  border-style: solid;
+  border-width: 1px;
+  margin: auto;
+ }
+
+#links {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+
+footer {
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width: 650px){
+  #intro, #telnet {
+    max-width: 100%;
+  }
+  
+  .imgbig {
+    display: none;
+  }
+  
+  .imgsmall {
+    display: block;
+  }
+  
+  footer {
+    font-size: 10px;
+    margin-top: 30px;
+  }
+}
